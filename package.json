@@ -1,7 +1,7 @@
 {
-  "name": "grille-xlsx-to-json",
+  "name": "grille-xlsx",
   "version": "0.0.1",
-  "description": "Simple CMS using Google Spreadsheets",
+  "description": "Convert ruled xlsx into json",
   "main": "lib/grille-xlsx.js",
   "directories": {
     "test": "test"
@@ -22,17 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wasedaigo/grille-xlsx-to-json.git"
+    "url": "https://github.com/wasedaigo/grille-xlsx.git"
   },
   "keywords": [
     "cms",
     "spreadsheet",
     "google",
     "xlsx",
-    "json"
+    "json",
+    "typed",
+    "rule"
   ],
   "bugs": {
-    "url": "https://github.com/wasedaigo/grille-xlsx-to-json/issues"
+    "url": "https://github.com/wasedaigo/grille-xlsx/issues"
   },
-  "homepage": "https://github.com/wasedaigo/grille-xlsx-to-json"
+  "homepage": "https://github.com/wasedaigo/grille-xlsx"
 }
