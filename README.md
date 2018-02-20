@@ -29,7 +29,7 @@ I recommend using data validation on the second row of a worksheet to enforce th
 The `meta` worksheet tells Grille how to parse your content.
 It is loaded prior to all other sheets being loaded.
 
-The `id` column correlates to the worksheet (tab) name to be loaded (if it's not listed it's not loaded).
+The `name` column correlates to the worksheet (tab) name to be loaded (if it's not listed it's not loaded).
 
 The `collection` column tells Grille which top-level attribute the data for that worksheet should be stored at. Note that you can use `.` for specifying deeper nested objects.
 
@@ -37,7 +37,7 @@ The `format` column tells Grille which method to use when converting the raw wor
 
 As a convention, all worksheets specify data types as the second row. I suggest using Data Validation (like in the example worksheet).
 
-id                  | collection    | format
+name                  | collection    | format
 --------------------|---------------|---------
 string              | string        | string
 people              | people        | hash
@@ -63,22 +63,20 @@ integer | string            | boolean   | string
 #### Hash Output
 
 ```json
-{
-  "people": {
-    "1": {
-      "gender": "m",
-      "id": 1,
-      "likesgum": false,
-      "name": "Rupert Styx"
-    },
-    "2": {
-      "gender": "f",
-      "id": 2,
-      "likesgum": true,
-      "name": "Morticia Addams"
-    }
+[
+  {
+    "gender": "m",
+    "id": 1,
+    "likesgum": false,
+    "name": "Rupert Styx"
+  },
+  {
+    "gender": "f",
+    "id": 2,
+    "likesgum": true,
+    "name": "Morticia Addams"
   }
-}
+]
 ```
 
 ### Example Hash Worksheet
@@ -121,11 +119,10 @@ KeyValue worksheets provide a simple collection for looking up data.
 Since each worksheet can only contain a single data type, I recommend using multiple sheets for different types and merging them together.
 Simply set the resulting `meta` collections for multiple sheets to be the same (see above) and they will be merged together as expected.
 
-id          | value
-------------|-----------------
-string      | string
-title       | Simple CMS Demo
-author      | Thomas Hunter II
+type    |  key    | value
+--------|---------|-----------------
+string  |  title  | Simple CMS Demo
+string  |  author | Thomas Hunter II
 
 #### KeyValue Output
 
