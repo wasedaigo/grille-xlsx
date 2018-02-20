@@ -2,7 +2,7 @@
   "name": "grille-xlsx-to-json",
   "version": "0.0.1",
   "description": "Simple CMS using Google Spreadsheets",
-  "main": "lib/index.js",
+  "main": "lib/grille-xlsx.js",
   "directories": {
     "test": "test"
   },
