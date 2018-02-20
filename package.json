@@ -18,7 +18,7 @@
     "xlsx": "*"
   },
   "devDependencies": {
-    "sinon": "^1.12.2"
+    "mocha": "^5.0.1"
   },
   "repository": {
     "type": "git",
