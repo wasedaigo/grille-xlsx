@@ -1,0 +1,38 @@
+{
+  "name": "grille-xlsx-to-json",
+  "version": "0.0.1",
+  "description": "Simple CMS using Google Spreadsheets",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Daigo Sato <daigo.gamemaker@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "json-stringify-pretty-compact": "^1.1.0",
+    "lodash": "*",
+    "winston": "*",
+    "xlsx": "*"
+  },
+  "devDependencies": {
+    "sinon": "^1.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wasedaigo/grille-xlsx-to-json.git"
+  },
+  "keywords": [
+    "cms",
+    "spreadsheet",
+    "google",
+    "xlsx",
+    "json"
+  ],
+  "bugs": {
+    "url": "https://github.com/wasedaigo/grille-xlsx-to-json/issues"
+  },
+  "homepage": "https://github.com/wasedaigo/grille-xlsx-to-json"
+}
