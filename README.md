@@ -1,6 +1,7 @@
 # grille-xlsx-to-json
 ## Usage
 ```
+  var GrilleXlsx = require('grille-xlsx.js');
   var grilleXlsx = new GrilleXlsx("test/test.xlsx");
   var json = grilleXlsx.toJson();
 ```
