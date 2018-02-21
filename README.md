@@ -1,4 +1,8 @@
 # grille-xlsx-to-json
+
+## Inspired by
+https://github.com/tlhunter/node-grille
+
 ## Usage
 ```
   var GrilleXlsx = require('grille-xlsx.js');
