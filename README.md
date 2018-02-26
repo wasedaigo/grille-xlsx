@@ -7,6 +7,9 @@ GrilleXlsx is a script inspired by node-grille https://github.com/tlhunter/node-
 This script converts xlsx into a json file with "types". 
 I am using this script to export tuning data for my games.
 
+Consider using https://github.com/wasedaigo/grille-downloader if you want to download xlsx from your GoogleSpreadSheet.
+Combining them, you can directly create JSON from the GoogleSpreadSheet
+
 ## Demo Sheet
 https://docs.google.com/spreadsheets/d/10JG0MwXy-jDSANQ6KTmiEnAFWo9PLJ7zYrnuy9VLPus/edit?usp=sharing
 
