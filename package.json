@@ -1,6 +1,6 @@
 {
   "name": "grille-xlsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert ruled xlsx into json",
   "main": "lib/grille-xlsx.js",
   "directories": {
@@ -10,7 +10,7 @@
     "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Daigo Sato <daigo.gamemaker@gmail.com>",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "json-stringify-pretty-compact": "^1.1.0",
     "lodash": "*",
