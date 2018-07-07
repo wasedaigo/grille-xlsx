@@ -1,6 +1,6 @@
 {
   "name": "grille-xlsx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert ruled xlsx into json",
   "main": "lib/grille-xlsx.js",
   "directories": {
