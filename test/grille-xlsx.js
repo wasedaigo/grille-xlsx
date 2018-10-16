@@ -38,5 +38,15 @@ describe("GrilleXlsx", function() {
       assert.deepEqual(json.keyvalueCollection["ARRAY_INTEGER"], [1, 2, 3]);
       assert.equal(json.keyvalueCollection["STRING"], "test");
     });
+    it("testArrayMerge", function() {
+      assert.equal(json.arrayMerge.length, 5);
+      console.log(JSON.stringify(json.arrayMerge));
+      var sample = json.arrayMerge[4];
+      assert.equal(sample.id, 5);
+      assert.equal(sample.bool, true);
+      assert.deepEqual(sample.floatArray, [1.0, 3.0, 4.0]);
+      assert.deepEqual(sample.boolArray, [true, false, false]);
+      assert.deepEqual(sample.stringArray, ["a", "b", "c"]);
+    });
   });
 });
