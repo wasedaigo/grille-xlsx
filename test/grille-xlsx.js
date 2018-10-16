@@ -40,7 +40,6 @@ describe("GrilleXlsx", function() {
     });
     it("testArrayMerge", function() {
       assert.equal(json.arrayMerge.length, 5);
-      console.log(JSON.stringify(json.arrayMerge));
       var sample = json.arrayMerge[4];
       assert.equal(sample.id, 5);
       assert.equal(sample.bool, true);
