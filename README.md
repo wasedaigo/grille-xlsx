@@ -22,7 +22,7 @@ https://github.com/tlhunter/node-grille
 ## Usage
 ```
   var GrilleXlsx = require('grille-xlsx.js');
-  var grilleXlsx = new GrilleXlsx('test/test.xlsx', 'meta'); // filename, meta data table name
+  var grilleXlsx = new GrilleXlsx('test/test.xlsx', 'meta', false); // filename, meta data table, binary(true/false) name
   var json = grilleXlsx.toJson();
 ```
 
