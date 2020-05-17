@@ -12,7 +12,7 @@ For more advanced features, consider using an extended version
 https://www.npmjs.com/package/sync-google-sheet
 
 ## Demo Sheet
-https://docs.google.com/spreadsheets/d/10JG0MwXy-jDSANQ6KTmiEnAFWo9PLJ7zYrnuy9VLPus/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1r2SaVhOH6exvevx_syqxCJFDARg-L4N1-uNL9SZAk04/edit#gid=0
 
 ## Inspired by
 https://github.com/tlhunter/node-grille
